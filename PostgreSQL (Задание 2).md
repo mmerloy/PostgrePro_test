@@ -14,7 +14,7 @@ docker pull postgres
 docker run --name mmerloy_postgres -e POSTGRES_PASSWORD=password -d -p 15432:5432 postgres
 ```
 
-![Созданный контейнер](img\docker-container.png)
+![Созданный контейнер](img/docker-container.png)
 
 
 ---
@@ -51,7 +51,7 @@ create table Exams (
 );
 ```
 
-![Схема базы данных](img\db-diagram.png)
+![Схема базы данных](img/db-diagram.png)
 
 ---
 
